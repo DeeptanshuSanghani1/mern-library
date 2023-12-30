@@ -32,6 +32,6 @@ class BookDTO{
         this.bookPublishYear = bookPublishYear
     }
 }
-//test1
+
 const Book = mongoose.model('Book', bookSchema)
 module.exports = Book
