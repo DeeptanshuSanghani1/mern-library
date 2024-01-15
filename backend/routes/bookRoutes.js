@@ -11,7 +11,7 @@ const {
 
 
 
-router.get('/',(getBooks))
+router.get('/books',(getBooks))
 
 router.get('/:id', (getBook))
 
